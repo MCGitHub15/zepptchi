@@ -1,4 +1,5 @@
 # zepptchi
+Where fitness meets nostalgic fun!
 ## Inspiration:
 The inspiration for this project was finding a way to incentivize healthy activity. While the watch shows people data like steps taken and calories burned, that alone doesn't encourage many people to exercise. By making the app, we hope to make exercise into a game that people look forward to doing rather than something they dread.
 
