@@ -4,7 +4,6 @@ import AutoGUI, { DEVICE_WIDTH } from '@silver-zepp/autogui';
 import { assets } from '@zos/utils';
 import { push } from "@zos/router";
 import { getText } from "@zos/i18n";
-// import { total_steps } from "../../utils/constants";
 import { Step } from "@zos/sensor";
 import { LocalStorage } from '@zos/storage'
 
@@ -12,7 +11,6 @@ const localStorage = new LocalStorage()
 
 const gui = new AutoGUI();
 
-const total_steps = new Step();
 // This variable will track our steps.
 const stepCount = new Step();
 const steps = stepCount.getCurrent();
@@ -25,8 +23,6 @@ if (stepData) {
 }
 
 let temp_steps_counter = stepData;
-console.log("make temp step")
-// let points = total_steps;
 
 class IndexPage {
   init(){
@@ -57,7 +53,7 @@ class IndexPage {
 
     // Callbacks.
     const cb_Steps = () => {
-      txt_steps.update({ text: "Pots: " + temp_steps_counter });
+      txt_steps.update({ text: "Points: " + temp_steps_counter });
       console.log(visits);
     };
 
