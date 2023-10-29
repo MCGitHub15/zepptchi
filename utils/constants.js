@@ -1,5 +1,8 @@
 import { getText } from "@zos/i18n";
 import { getDeviceInfo, SCREEN_SHAPE_SQUARE } from "@zos/device";
+import { Step } from "@zos/sensor";
+
+const step = new Step();
 
 export const {
   width: DEVICE_WIDTH,
@@ -7,6 +10,8 @@ export const {
   screenShape,
 } = getDeviceInfo();
 export const isSquare = SCREEN_SHAPE_SQUARE === screenShape;
+
+export const total_steps = step.getCurrent();
 
 export const FOOD_CALORIES = [
   {

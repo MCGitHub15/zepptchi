@@ -5,7 +5,7 @@ import { px } from "@zos/utils";
 import { DEVICE_WIDTH } from "../../utils/constants";
 
 export const COMMON_TITLE_TEXT = {
-  text: getText("calories"),
+  text: getText("Store"),
   x: px(96),
   y: px(40),
   w: DEVICE_WIDTH - 2 * px(96),

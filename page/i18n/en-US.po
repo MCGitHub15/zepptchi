@@ -9,7 +9,7 @@ msgid "coffee"
 msgstr "Coffee"
 
 msgid "calories"
-msgstr "Steps"
+msgstr "Store"
 
 msgid "beer"
 msgstr "Beer"
